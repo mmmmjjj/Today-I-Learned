@@ -81,7 +81,7 @@ public class CombNextPermutationTest {
 
 	public static void main(String[] args) {
 
-		int[] input = { 7, 1, 4,2,3 };
+		int[] input = { 7, 1, 4, 2, 3 };
 		int N = input.length;
 		int R = 3;
 		
