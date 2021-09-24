@@ -102,3 +102,32 @@ public class CombNextPermutationTest {
 
 	이하 아래는 위 NP 코드와 같다.
 ```
+- PrevPermutation
+- 조건문에서 부호만 반대로 바꾸면 다음순열이 아닌 이전순열을 찾을 수 있다.
+
+```java
+private static boolean prevPermutation(int[] numbers) {
+
+		int N = numbers.length;
+
+		int i = N - 1;
+		while (i > 0 && numbers[i - 1] <= numbers[i]) --i;
+		
+		if(i==0) return false;
+		
+		int j = N-1;
+		
+		while(numbers[i-1]<=numbers[j]) --j;
+		
+		swap(numbers,i-1,j);
+		
+		int k = N-1;
+        
+		while(i<k) swap(numbers,i++,k--);
+		
+		return true;
+
+	}
+
+
+```
