@@ -34,6 +34,7 @@
 ### Servlet Life-Cycle
 
 - Servlet은 javaSE의 클래스와 다르게 main 메소드가 없다. 즉 객체의 생성부터 사용의 주체가 사용자가 아닌 Servlet Container에게 있다.
+
 - Client가 요청(Request)을 하게 되면 Servlet Container는 Servlet객체를 한번만 생성하고, 한번만 초기화 하며 요청에 대한 처리를 요청시마다 반복하게 된다. 또한 Servlet객체가 필요 없게 되면 destroy 제거한다.
 
 ### 주요 method
