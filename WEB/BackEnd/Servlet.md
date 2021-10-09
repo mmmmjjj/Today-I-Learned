@@ -61,3 +61,10 @@
 ![image](https://user-images.githubusercontent.com/67090601/136660292-83f03741-0020-4a04-96f0-b677289affd1.png)
 
 - 쉽게 보자면 POST라 명시되어 있는 경우 빼고 다 GET이다.
+
+### 💡 Servlet 코드구조
+
+ 1. data를 받아온다.
+> post에서는 꼭 setCharacterEncoding("utf-8") 처리를 해주어야 한다. <br>get에서는 X
+ 2. data를 이용하여 로직을 처리한다.
+ 3. 2의 결과에 따른 response 페이지를 보낸다.
