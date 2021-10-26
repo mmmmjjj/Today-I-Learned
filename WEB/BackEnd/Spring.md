@@ -64,7 +64,8 @@
 
 ### 객체간 강한 결합 vs IoC
 
-- 객체간 강한 결합
+- **객체간 강한 결합**
+
   - 클래스 호출 방식
   - 클래스내에 선언과 구현이 모두 되어 있기 때문에 다양한 형태로 변화 불가능
 
@@ -75,7 +76,8 @@
 
 MemberService가 교체되거나 내부 코드가 변경되면 HomeController까지 수정해야 함
 
-- IoC
+- **IoC**
+
   - 인터페이스 호출 방식
   - 구현 클래스 교체가 용이하여 다양한 형태로 변화 가능
   - 인터페이스 교체 시는 호출 클래스도 수정해야 함
@@ -83,7 +85,8 @@ MemberService가 교체되거나 내부 코드가 변경되면 HomeController까
 <img width="1177" alt="스크린샷 2021-10-26 오후 8 52 11" src="https://user-images.githubusercontent.com/67090601/138877243-33bf0d38-c478-4bcf-ac0e-788ecde7affd.png">
 
 
-- Spring
+- **Spring**
+
   - 객체 간의 강한 결합을 assembler를 통해 결합도를 낮춤
   - IoC 호출 방식
   - 팩토리 패턴의 장점을 더하여 어떠한 것에도 의존하지 않는 형태가 됨
@@ -97,6 +100,8 @@ MemberService가 교체되거나 내부 코드가 변경되면 HomeController까
 ---
 
 <img width="598" alt="스크린샷 2021-10-26 오후 8 31 37" src="https://user-images.githubusercontent.com/67090601/138877374-64fab9fb-ffcd-4f56-9eb0-1f81844c0d9a.png">
+
+### IoC 종류
 
 #### dependency lookup
 
