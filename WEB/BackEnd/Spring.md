@@ -190,6 +190,7 @@ MemberService가 교체되거나 내부 코드가 변경되면 HomeController까
     - class : 주입할 객체의 클래스
     - Init-methd : 객체가 생성될 때 실행 시키고 싶은 메서드.
     - 이외에도 많음
+  - property 방식과 constructor 방식이 있는데 주로 property 사용한다.
 
 - **Annotation** 방식
 
