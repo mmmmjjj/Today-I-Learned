@@ -79,6 +79,10 @@
 
 <img width="711" alt="스크린샷 2021-10-31 오후 5 10 33" src="https://user-images.githubusercontent.com/67090601/139574036-a96c621b-93da-4900-86dd-feec265e22fc.png">
 
+<img width="711" alt="스크린샷 2021-10-31 오후 5 21 17" src="https://user-images.githubusercontent.com/67090601/139574344-8e2cc92e-abfe-4273-9894-3522a6e73e98.png">
+
+  
+  
 - Controller Class 작성
 - Context 설정파일에 Controller 등록
 
