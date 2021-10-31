@@ -93,3 +93,9 @@
 
 #### 5. JSP 코드 작성
 
+  
+## Spring Web Application 동작 순서
+
+<img width="1188" alt="스크린샷 2021-10-31 오후 5 42 27" src="https://user-images.githubusercontent.com/67090601/139574872-16cabedd-44e1-45de-a29b-c9b5da77f954.png">
+
+<img width="1088" alt="스크린샷 2021-10-31 오후 5 42 18" src="https://user-images.githubusercontent.com/67090601/139574905-9abf07a9-cadb-44ad-8e64-894fea746019.png">
